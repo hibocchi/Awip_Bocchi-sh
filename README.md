@@ -6,10 +6,10 @@ Si se ha conectado un dispositivo al servidor SSH puerto 22 de la maquina linux.
 
                             
 
+   #Instalación
 
 
-
-    Instalación     chmod +x Launcher-Awip-Bocchi.sh     
+       chmod +x Launcher-Awip-Bocchi.sh     
 
 
 
