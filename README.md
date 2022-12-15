@@ -1,2 +1,6 @@
 # Awip_Bocchi-sh
-Comprabacion si se ha conectado un dispositivo al servidor SSH de la maquina linux. Si se ha conectado un dispositivo, se muestra una notificación en la pantalla
+Si se ha conectado un dispositivo al servidor SSH puerto 22 de la maquina linux. Si se ha conectado un dispositivo, se muestra una notificación en la pantalla
+
+
+
+Este código se utiliza para enviar una notificación y un mensaje de alerta a todos los usuarios conectados en el sistema cuando se detecta una conexión SSH entrante en el puerto 22. La opción -x indica que se habilita el modo de depuración para mostrar cada línea del script mientras se ejecuta. La línea ''' if netstat -an | grep -q ':22.*ESTABLISHED'; then ''' comprueba si hay alguna conexión SSH activa en el puerto 22 utilizando el comando netstat y grep. Si se detecta una conexión activa, se ejecuta la línea '''' notify-send --expire-time=-1 --hint=string:int:int:'bottom_right' 'ALERTA' 'SE HA DETECTADO UN NUEVO LOGIN EN LA SSH' ''' que muestra una notificación en la pantalla del usuario con el mensaje "ALERTA: SE HA DETECTADO UN NUEVO LOGIN EN LA SSH". La línea ''' tee ssh-login-alert.log ''' escribe un mensaje en el archivo "ssh-login-alert.log" y también lo muestra en la salida estándar. Finalmente, la línea ''' echo "ALERTA NUEVO LOGIN EN LA SSH" | wall '''  envía un mensaje a todos los usuarios conectados en el sistema usando el comando wall.
