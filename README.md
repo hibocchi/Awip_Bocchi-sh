@@ -4,12 +4,12 @@ Si se ha conectado un dispositivo al servidor SSH puerto 22 de la maquina linux.
 
 
 
+                                Instalación
 
 
 
 
-
--------------- || chmod +x Launcher-Awip-Bocchi.sh ||---------------------
+-------------- ||     chmod +x Launcher-Awip-Bocchi.sh      ||---------------------
 
 
 
@@ -34,4 +34,4 @@ La finalidad de este script es alertar a los usuarios del sistema sobre el inici
 
 ###########################
 
-Explicacion by ChatGPT
+Explicación by ChatGPT
