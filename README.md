@@ -1,5 +1,5 @@
 # Awip_Bocchi-sh
-Si se ha conectado un dispositivo al servidor SSH puerto 22 de la maquina linux. Si se ha conectado un dispositivo, se muestra una notificación en la pantalla
+Si se ha conectado un dispositivo al servidor SSH puerto 22 de la maquina linux. se muestra una notificación en la pantalla
 
 
 
